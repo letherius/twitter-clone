@@ -1,0 +1,87 @@
+/* Basic styling for the Twitter clone */
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #1DA1F2;
+    color: white;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #F5F8FA;
+    padding: 1rem;
+}
+
+/* Feed */
+.feed {
+    flex-grow: 1;
+    padding: 1rem;
+}
+
+/* Tweet box */
+.tweet-box {
+    background-color: white;
+    border: 1px solid #E1E8ED;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.tweet-box textarea {
+    width: 100%;
+    height: 100px;
+    resize: none;
+    border: none;
+    outline: none;
+}
+
+.tweet-box button {
+    background-color: #1DA1F2;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+/* Tweet list */
+.tweet-list {
+    /* Add your styles */
+}
+
+.tweet {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #E1E8ED;
+}
+
+.tweet img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.tweet-content {
+    flex-grow: 1;
+}
+
+/* Widgets */
+.widgets {
+    width: 250px;
+    background-color: #F5F8FA;
+    padding: 1rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center; /* Vertically align the logo */
+    justify-content: center; /* Center the logo horizontally */
+    padding: 0.5rem;
+    max-width: 1px;
+    max-height: 1px;
+}

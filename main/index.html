@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main/style.css">
+    <title>Twitter Clone</title>
+</head>
+<body>
+    <header>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Search...">
+            <button id="search-button">🔍</button> <!-- Search button with icon -->
+        </div>
+        <!-- Navigation links here -->
+    </header>
+
+    <aside class="sidebar">
+        <!-- Profile info, trending topics, etc. -->
+    </aside>
+
+    <main class="feed">
+        <div class="tweet-box">
+            <textarea id="tweet-input" placeholder="Compose your tweet..."></textarea>
+            <button id="post-button">Post</button>
+        </div>
+
+        <div class="tweet-list" id="tweet-list">
+            <!-- Sample tweets -->
+            <div class="tweet">
+                <img src="user-avatar.jpg" alt="User Avatar">
+                <div class="tweet-content">
+                    <span class="username">@username</span>
+                    <p>This is a sample tweet. Lorem ipsum dolor sit amet...</p>
+                </div>
+            </div>
+            <!-- More tweets go here -->
+        </div>
+    </main>
+
+    <aside class="widgets">
+        <!-- Trending topics, notifications, etc. -->
+    </aside>
+
+    <script src="/main/script.js"></script>
+</body>
+</html>
